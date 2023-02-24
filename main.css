@@ -1,0 +1,19 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+#navbar{
+    display: flex;
+    flex-direction:row;
+    background-color: black;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    
+    color: aliceblue;
+}
+
+#navbar ul li{
+    padding: 10px;
+}
