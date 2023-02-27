@@ -47,6 +47,10 @@ body {
     display: flex;
 }
 
+#line {
+    margin-bottom: 17px;
+}
+
 .aside {
     background: black;
     padding: 33px;
@@ -58,16 +62,49 @@ body {
     justify-content: center;
     flex-direction: column;
     margin-left: 61px;
-    margin-top: 295px;
+    margin-top: 271px;
     border: 2px solid;
-    height: 189px;
+    height: 214px;
 }
 
-#insta{
-    width: 63px;
-    height: 48px;
-    margin-top: 4px;
+.aside a {
+
+    width: 2px;
 }
+
+#insta {
+    width: 67px;
+    height: 53px;
+    margin-top: 1px;
+    display: block;
+}
+
+#snap {
+    width: 52px;
+    height: 42px;
+    margin-top: -47px;
+    display: block;
+    margin-left: 79px;
+}
+
+#tele {
+    width: 54px;
+    height: 39px;
+    margin-top: -47px;
+    display: block;
+    margin-left: 149px;
+    border: 2px solid white;
+    border-radius: 72px;
+}
+
+#git {
+    width: 54px;
+    height: 44px;
+    margin-top: -49px;
+    margin-left: 223px;
+    display: block;
+}
+
 #logo {
     border-radius: 227px;
     margin-left: 371px;
@@ -89,6 +126,7 @@ body {
 .aside h3 {
     font-family: 'Segoe Print', sans-serif;
     font-size: 25px;
+    margin-bottom: 13px;
 }
 
 
@@ -156,4 +194,27 @@ body {
     .change .bar3 {
         transform: translate(0, -11px) rotate(45deg);
     }
+
+    #logo {
+        display: none;
+    }
+
+    .aside {
+        display: block;
+        width: 272px;
+        height: 335px;
+        margin-left: 9px;
+        margin-top: 18px;
+    }
+
+    #tele {
+        margin-top: -42px;
+        display: block;
+    }
+
+    #git {
+        margin-top: -43px;
+        display: block;
+    }
+
 }
